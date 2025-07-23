@@ -1,117 +1,88 @@
-# 🌟 Jyoti – Aspiring Data Scientist & Analyst
+<h1 align="center">🌟 Jyoti — Aspiring Data Scientist & Analyst 🌟</h1>
 
-> Turning complex data into clear decisions, one insight at a time.
-
-Welcome to my personal portfolio repository! This space showcases my passion for data, my journey through projects, skills, and publications—all crafted with the goal of transforming raw data into actionable insights.
-
----
-
-## 🔗 Live Portfolio
-
-👉 **[View Live Portfolio](https://your-portfolio-link.com)**  
-_(Replace with actual GitHub Pages/Netlify/other deployed link)_
+<p align="center">
+  <em>Turning complex data into clear decisions,<br>one insight after another.</em><br><br>
+  <a href="https://your-cv-link.com"><img src="https://img.shields.io/badge/Download-CV-blue?style=flat-square&logo=read-the-docs" alt="Download CV"></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-Me-red?style=flat-square&logo=gmail" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
+  <a href="https://jyoti.github.io/portfolio"><img src="https://img.shields.io/badge/Visit-Portfolio-brightgreen?style=flat-square&logo=githubpages" alt="Portfolio"></a>
+</p>
 
 ---
 
-## 👩‍💻 About Me
+## 📌 About Me
 
-I’m **Jyoti**, an aspiring **Data Scientist / Analyst** with a strong foundation in **Python, Machine Learning, NLP, SQL, and Visualization tools**. I love decoding patterns, telling stories through data, and constantly sharpening my skills to stay ahead in this dynamic field.
+Hi, I’m **Jyoti**, an enthusiastic and self-motivated aspiring **Data Scientist / Data Analyst** with a passion for transforming raw data into meaningful insights. I specialize in predictive modeling, visualization, and intelligent systems — constantly learning and evolving to solve real-world problems.
 
-> “Skills are the key to success in the data science field. I am constantly learning and improving my skills to stay ahead in this fast-paced industry.”
+> 💡 *“Where others see data, I see stories waiting to be told.”*
 
 ---
 
 ## 🛠️ Skills
 
-| Programming | Tools & IDEs | Data & ML | Visualization |
-|------------|--------------|-----------|---------------|
-| Python, C++, Java | VS Code, Jupyter, PyCharm, Colab | Pandas, NumPy, Scikit-Learn, OpenCV, Flask | Tableau, MS Excel, Power BI |
-| HTML, CSS, JavaScript | GitHub, Zotero, Postman, Jira | Machine Learning, NLP, Deep Learning | Matplotlib, Seaborn |
+| Languages  | Tools & Libraries           | Platforms          | Visualization     |
+|------------|-----------------------------|--------------------|-------------------|
+| Python, C++, Java | NumPy, Pandas, Scikit-learn, Flask, Selenium, OpenCV | MySQL, Jupyter, Colab, VS Code, PyCharm | Tableau, Matplotlib, Power BI |
+
+*Other tools*: Zotero, Postman, Jira, Git, HTML, CSS, JavaScript
 
 ---
 
 ## 🚀 Featured Projects
 
-### 📊 Biomedical Waste Generation Predictor  
-**Aug 2024 – Present**  
-> Analyzed CPCB data (2008–2022) across Indian states using LSTM, XGBoost, and Random Forest. Achieved R² scores of 94–95.4%.  
-**Tech:** Python, NumPy, Pandas, Scikit-Learn, Matplotlib  
-[🔗 View Code](#) | [🌐 Live Demo](#)
-
----
-
-### 📷 To Another Realm  
-**Jan 2025 – Feb 2025**  
-> A creative portfolio blending **photography, poetry, and short stories** using GitHub & Markdown for immersive storytelling.  
-**Tech:** GitHub, HTML, CSS, Snapseed, Markdown  
-[🔗 View Code](#) | [🌐 Live Demo](#)
-
----
-
-### 🎨 Color Vibe  
-**Apr 2025 – May 2025**  
-> Extracted dominant colors from images via K-Means clustering for design inspiration.  
-**Tech:** Python, OpenCV, Matplotlib, Scikit-Learn  
-[🔗 View Code](#) | [🌐 Live Demo](#)
-
----
-
-### 🧠 Fake News Detector  
-**Jan 2024 – May 2024**  
-> ML-based system using XGBoost (98% accuracy) to detect fake news. Real-time Flask web app deployed.  
-**Tech:** Python, Scikit-Learn, Flask  
-[🔗 View Code](#) | [🌐 Live Demo](#)
-
----
-
-### 📈 User Browsing Behavior  
-**Apr 2025**  
-> Uncovered behavioral patterns from 5,104+ user records, visualized peak times using Power BI.  
-**Tech:** Python, Pandas, Matplotlib, Tableau  
-[🔗 View Code](#) | [🌐 Live Demo](#)
+| Project | Description | Tech Stack | Live |
+|--------|-------------|------------|------|
+| **Biomedical Waste Generation Predictor** | Forecasts biomedical waste using ML on CPCB data (2008–2022). Achieved R² of 95.4% with XGBoost. | `Python`, `LSTM`, `Random Forest`, `XGBoost`, `Matplotlib` | [Code](#) · [Demo](#) |
+| **Color Vibe** | Extracts dominant colors from images using K-Means. Great for designers. | `Python`, `OpenCV`, `KMeans`, `Matplotlib` | [Code](#) · [Demo](#) |
+| **To Another Realm** | A personal storytelling journey blending poetry and photography. | `GitHub`, `HTML`, `CSS`, `Snapseed`, `Markdown` | [Code](#) · [Demo](#) |
+| **User Browsing Behavior Analysis** | Analyzed 5,000+ user sessions, uncovered time-based insights using Power BI. | `Python`, `Pandas`, `Tableau` | [Code](#) · [Demo](#) |
+| **Fake News Detector** | Built a real-time fake news classifier (98% accurate) using Flask and XGBoost. | `Python`, `ML`, `Flask` | [Code](#) · [Demo](#) |
 
 ---
 
 ## 🎓 Education
 
-- 🎓 **B.Tech** – [Your College Name]  
-- 🎓 **M.Tech (CSE – AI)** – [Your Current College Name]  
+- 📘 **M.Tech (CSE-AI)** — Ongoing  
+- 📘 **B.Tech (CSE)**  
+- 📘 **12th Grade**  
+- 📘 **10th Grade**
 
 ---
 
 ## 📚 Publications
 
-1. **Intelligent Systems in Bio. Med. Management**  
-   _Scopus Indexed_ – [View Certificate ↗](#)
+1. **Intelligent Systems in Biomedical Waste Management**  
+   *Conference:* International Conference on Environmental Science and Technology (Scopus Indexed)  
+   [📄 View Certificate](#)
 
-2. **Longitudinal Analysis of Biomedical Waste Generation**  
-   _Taylor & Francis / Scopus_ – [View Certificate ↗](#)
-
----
-
-## 🧩 Miscellaneous
-
-- 👩‍💻 **Internshala Web Development Certificate**  
-- 🧑‍🎓 **Technical Volunteer – College Fest 2022**  
-- 🥉 **3rd Place – E-Poster Competition (University of Lucknow)**
+2. **Data-Driven Forecasting of Biomedical Waste**  
+   *Conference:* ICNGTAI — Taylor & Francis Group (Scopus Indexed)  
+   [📄 View Certificate](#)
 
 ---
 
-## 📫 Contact Me
+## 🏆 Achievements & More
 
-Have a project in mind or just want to connect?
-
-- 📧 Email: [your-email@example.com]
-- 🌐 LinkedIn: [linkedin.com/in/yourprofile](#)
-- 🌍 Portfolio: [your-portfolio-link.com](#)
+- 🥉 *3rd Place – E-Poster Competition* (University of Lucknow)  
+- 🛠️ *Technical Volunteer – College Fest 2022*  
+- 🧾 *Web Dev Certification – Internshala*
 
 ---
 
-## 🧠 Let’s Build Something Data-Driven Together!
+## 📬 Let's Connect!
 
-> “Data is the new oil, but insight is the spark that powers the engine.”
+Have a project in mind or want to collaborate?
+
+- 📧 Email: your.email@example.com  
+- 💼 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
+- 🌐 Portfolio: [jyoti.github.io/portfolio](https://jyoti.github.io/portfolio)
 
 ---
 
-⭐ If you like this portfolio or find it useful, don’t forget to star 🌟 the repo and follow me for updates!
+## 🤝 Support
 
+If you find this portfolio inspiring or useful, give it a ⭐ and feel free to fork or clone!
+
+---
+
+<p align="center">© 2025 Jyoti | Data Scientist & Analyst</p>
