@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Jyoti, an aspiring Data Scientist and Analyst. Showcasing skills, projects, education, and more." />
+  <meta name="keywords" content="Data Scientist, Data Analyst, Portfolio, Projects, Skills, Education" />
+  <title>Data Scientist Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Exo:wght@300&display=swap" rel="stylesheet">
+  <script
+  src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+  type="module"
+></script>
+</head>
+<body>
+ <nav>
+  <div class="logo">
+    <img src="img/Jyotilogo-removebg-preview.png" alt="Logo" class="logo-image">
+  </div>
+  
+  <button class="hamburger" id="hamburger-btn">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#publication">Publications</a></li>
+    <li><a href="#miscellaneous">Miscellaneous</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="about" class="section"> 
+
+  <!-- Image & Animated Background Text -->
+  <div class="image-container">
+    <!-- You can uncomment and use image or video as needed -->
+    <!-- <img src="img/robotangkasa.gif" alt="Profile Image"> -->
+    <!-- <video autoplay loop muted playsinline>
+      <source src="img/Animation - 1724879302310.webm" type="video/webm">
+    </video> -->
+
+    <!-- Animated Text -->
+    <div class="background-text">
+      <span class="text-large">Hello</span>
+      <span class="text-medium">Hello</span>
+      <span class="text-small">Hello</span>
+    </div>
+  </div>
+
+  <!-- Profile Image -->
+  <div class="profile-image">
+    <img src="img/Untitled (17).png" alt="Profile Image">
+  </div>
+
+  <!-- Text Content -->
+  <div class="text-container">
+    <h3>ABOUT</h3>
+    <h1><span class="changing-text">JYOTI</span></h1>
+
+    <script>
+      const changingText = document.querySelector('.changing-text');
+      const texts = ['JYOTI', 'ज्योति'];
+      let index = 0;
+
+      function changeText() {
+        index = (index + 1) % texts.length;
+        changingText.textContent = texts[index];
+      }
+
+      setInterval(changeText, 3000);
+    </script>
+
+    <h5>ASPIRING DATA SCIENTIST / DATA ANALYST</h5>
+    <p>
+      Turning complex data into clear decisions,<br>
+      one insight after another.
+    </p>
+     <a href="RESUME.pdf" download>
+  <button class="download-cv-btn">Download CV</button>
+</a>
+
+  </div>
+
+  <!-- Lottie Animation + Action Buttons -->
+   <!-- <div class="action-buttons"> -->
+        <!-- <button class="hire-me-btn">Hire Me</button> -->
+        <!-- <button class="download-cv-btn">Download CV</button> -->
+      <!-- </div> -->
+    
+  </div>
+
+</section>
+
+  <section id="skills" >
+  
+    <!-- Add a wrapper for the heading to position it on the right side -->
+    <div class="skills-header" ><h2  data-text="SKILLS">SKILLS </h2></div>
+        
+   
+
+    <!-- Visual Skill Items -->
+     <div class="skills-content">
+    <div class="skills-grid">
+        <div class="skill-item">
+            <img src="img/python.png" alt="Python Icon" class="skill-icon">
+            <span>Python</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/c-.png" alt="C++ Icon" class="skill-icon">
+            <span>C++</span>
+        </div>
+        <div class="skill-item highlight">
+            <img src="img/mysql.png" alt="MySql" class="skill-icon">
+            <span>MySQL/DBMS</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/deep-learning (1).png" alt="Machine Learning" class="skill-icon">
+            <span>Machine Learning</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/nlp.png" alt="NLP" class="skill-icon">
+            <span>NLP</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/icons8-numpy-48.png" alt="NumPy" class="skill-icon">
+            <span>NumPy</span>
+        </div>
+
+        <div class="skill-item">
+            <img src="img/icons8-pandas-48.png" alt="Pandas" class="skill-icon">
+            <span>Pandas</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/dashboard.png" alt="dashboard" class="skill-icon">
+            <span>Dashboard</span>
+        </div>
+        
+      
+        <div class="skill-item">
+            <img src="img/icons8-tableau-software-48.png" alt="Tableau" class="skill-icon">
+            <span>Tableau</span>
+        </div>
+        
+        <div class="skill-item">
+            <img src="img/icons8-pycharm-48.png" alt="PyCharm" class="skill-icon">
+            <span>PyCharm</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/icons8-zotero-64.png" alt="Zotero" class="skill-icon">
+            <span>Zotero</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/icons8-flask-64.png" alt="Flask" class="skill-icon">
+            <span>Flask</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/icons8-jupyter-48.png" alt="Jupyter Notebook" class="skill-icon">
+            <span>Jupyter Notebook</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/icons8-google-colab-48.png" alt="Colab" class="skill-icon">
+            <span>Colab</span>
+        </div>
+          <div class="skill-item">
+            <img src="img/html-5.png" alt="HTML" class="skill-icon">
+            <span>HTML</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/css.png" alt="CSS" class="skill-icon">
+            <span>CSS</span>
+        </div>
+
+        <div class="skill-item">
+            <img src="img/icons8-javascript-48.png" alt="JavaScript" class="skill-icon">
+            <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/Untitled (11).png" alt="VS Code" class="skill-icon">
+            <span>VS Code</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/office (1).png" alt="MS Word" class="skill-icon">
+            <span>MS Word</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/office365.png" alt="MS Excel" class="skill-icon">
+            <span>MS Excel</span>
+        </div>
+         <div class="skill-item">
+            <img src="img/icons8-jira-48.png" alt="Jira" class="skill-icon">
+            <span>Jira</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/icons8-selenium-48.png" alt="Selenium" class="skill-icon">
+            <span>Selenium</span>
+        </div>
+         <div class="skill-item">
+            <img src="img/icons8-java-48.png" alt="Java" class="skill-icon">
+            <span>Java</span>
+        </div>
+        <div class="skill-item">
+            <img src="img/icons8-postman-api-64.png" alt="Postman" class="skill-icon">
+            <span>Postman</span>
+        </div>
+        
+
+        
+        <!-- More skill items as needed -->
+    </div>
+
+
+    <!-- Textual Skills List -->
+    <!-- <div class="skills-text">
+        <ul>
+          <li ><h4>Languages:</h4> <span>C++, Python</span></li>
+          <li ><h4>Web Technologies:</h4> <span>HTML, CSS</span></li>
+          <li ><h4>Tools:</h4> <span>SQL, MySQL, Visual Studio, MS PowerPoint, MS Word, Overleaf, Zotero, Canva</span></li>
+          <li ><h4>Other:</h4> <span>Data Structure using C++, Machine Learning, Deep Learning, Natural Language Processing, Cloud Computing</span></li>
+          <li ><h4>Soft Skills:</h4> <span>Problem-Solving, Computer Literacy, Analytical Skills, Team Collaboration, Adaptability, Time Management, and Leadership</span></li>
+        </ul>
+    </div> -->
+      
+</div>
+    <div class="skills-footer">
+        <p>Skills are the key to success in the data science field. I am constantly learning and improving my skills to stay ahead in this fast-paced industry.</p>
+    </div>
+    
+</section>
+
+<section id="projects" class="section">
+    <div class="projects-header">
+        <h2>Projects</h2><div class="projects-content">
+    <!-- Project 1 -->
+  <div class="projects-content">
+<!-- Project 1 -->
+<div class="project-item">
+    <div class="project-icon">
+        <img src="img/Screenshot 2025-05-02 235727.png" alt="Project 1">
+    </div>
+    <div class="project-details">
+        <h3>Biomedical Waste Generation Predictor</h3>
+        <p>Analyzed CPCB data (2008-2022) on biomedical waste across Indian states. Processed 500+ records, applied feature engineering, and trained models (LSTM, Random Forest, XGBoost), achieving R² of 94%, 95%, and 95.4%.</p>
+    </div>
+    <div class="tech-stack">
+        <a href="https://www.python.org" ><img src="img/icons8-python-48.png" alt="Python"> </a>
+        <a href="https://numpy.org" ><img src="img/icons8-numpy-48.png" alt="NumPy"></a>
+        <a href="https://pandas.pydata.org" ><img src="img/icons8-pandas-48 (1).png" alt="Pandas"></a>
+        <a href="https://matplotlib.org" ><img src="img/icons8-matplotlib-48.png" alt="Matplotlib"></a>
+        <a href="https://scikit-learn.org" ><img src="img/2843c79491bf3698ce81a688c001a2c1.png" height="54px" width="100px" alt="Scikit-Learn"></a>
+    </div>
+    <div class="project-footer">
+        <a href="https://github.com/yourusername/project1" class="btn">View Code ↗</a>
+        <a href="https://yourliveproject1.netlify.app"  class="btn">Live Demo ↗</a>
+        <a href="https://yourliveproject1.netlify.app" class="btn">Aug 2024– Present</a>
+    </div>
+</div>
+
+<!-- Project 2 -->
+<div class="project-item">
+    <div class="project-icon">
+        <img src="img/Screenshot 2025-05-12 175317.png" alt="Project 2">
+    </div>
+    <div class="project-details">
+        <h3>To Another Realm</h3>
+        <p>A curated portfolio blending photography, poetry, and short stories to evoke emotion and spark imagination. Built with GitHub, Photoshop, and Markdown for an immersive storytelling experience.</p>
+    </div>
+    <div class="tech-stack">
+        <a href="https://github.com" ><img src="img/icons8-github-50.png" alt="GitHub"></a>
+        <a href="https://github.com"><img src="img/icons8-html-48 (1).png" alt="HTML"></a>
+        <a href="https://github.com"><img src="img/icons8-css-48.png" alt="CSS"></a>
+        <a href="https://www.adobe.com/products/photoshop.html" ><img src="img/icons8-snapseed-48.png" alt="Snapseed"></a>
+        <a href="https://daringfireball.net/projects/markdown/" ><img src="img/icons8-markdown-50.png" alt="Markdown"></a>
+    </div>
+    <div class="project-footer">
+        <a href="https://github.com/yourusername/project2"  class="btn">View Code ↗</a>
+        <a href="https://yourliveproject2.vercel.app" class="btn">Live Demo ↗</a>
+        <a href="https://yourliveproject2.vercel.app"  class="btn">Jan 2025– Feb 2025</a>
+    </div>
+</div>
+
+<!-- Project 3 -->
+<div class="project-item">
+    <div class="project-icon">
+        <img src="img/Screenshot 2025-05-03 000658.png" alt="Project 3">
+    </div>
+    <div class="project-details">
+        <h3>Color Vibe</h3>
+        <p>A Python-based project that extracts dominant colors from an image using K-Means clustering. It enhances image vibrancy and provides a palette of the top 5 colors for design projects.</p>
+    </div>
+    <div class="tech-stack">
+        <a href="https://www.python.org"><img src="img/icons8-python-48.png" alt="Python"></a>
+        <a href="https://opencv.org" ><img src="img/icons8-opencv-48.png" alt="OpenCV"></a>
+        <a href="https://scikit-learn.org" ><img src="img/2843c79491bf3698ce81a688c001a2c1.png" height="54px" width="100px"alt="Scikit-Learn"></a>
+        <a href="https://matplotlib.org" ><img src="img/icons8-markdown-50.png" alt="Matplotlib"></a>
+        <a href="https://numpy.org" ><img src="img/icons8-numpy-48.png" alt="NumPy"></a>
+    </div>
+    <div class="project-footer">
+        <a href="https://github.com/yourusername/project3" class="btn">View Code ↗</a>
+        <a href="https://yourliveproject3.netlify.app"  class="btn">Live Demo ↗</a>
+        <a href="https://yourliveproject3.netlify.app"  class="btn">Apr 2025– May 2025</a>
+    </div>
+</div>
+
+<!-- Project 4 -->
+<div class="project-item">
+    <div class="project-icon">
+        <img src="img/Screenshot 2025-05-02 235929.png" alt="Project 4">
+    </div>
+    <div class="project-details">
+        <h3>User Browsing Behavior</h3>
+        <p>Analyzed 5,104+ browsing records to uncover user behavior patterns. Processed data with Python, engineered time-series features, and visualized insights with Power BI, revealing peak engagement times.</p>
+    </div>
+    <div class="tech-stack">
+        <a href="https://www.python.org" ><img src="img/icons8-python-48.png" alt="Python"></a>
+        <a href="https://pandas.pydata.org" ><img src="img/icons8-pandas-48.png" alt="Pandas"></a>
+        <a href="https://numpy.org" ><img src="img/icons8-numpy-48.png" alt="NumPy"></a>
+        <a href="https://matplotlib.org" ><img src="img/icons8-matplotlib-48.png" alt="Matplotlib"></a>
+        <a href="https://powerbi.microsoft.com" ><img src="img/icons8-tableau-software-48.png" alt="Tableau"></a>
+    </div>
+    <div class="project-footer">
+        <a href="https://github.com/yourusername/project4"  class="btn">View Code ↗</a>
+        <a href="https://yourliveproject4.vercel.app"  class="btn">Live Demo ↗</a>
+        <a href="https://yourliveproject4.vercel.app"  class="btn">Apr 2025</a>
+    </div>
+</div>
+
+<!-- Project 5 -->
+<div class="project-item">
+    <div class="project-icon">
+        <img src="img/Screenshot 2025-05-02 235643.png" alt="Project 5">
+    </div>
+    <div class="project-details">
+        <h3>Fake News Detector</h3>
+        <p>A machine learning system using SVM, Random Forest, and XGBoost to identify fake news. Achieved 98% accuracy with XGBoost and implemented a Flask web app for real-time news authenticity checks.</p>
+    </div>
+    <div class="tech-stack">
+        <a href="https://www.python.org" ><img src="img/icons8-python-48.png" alt="Python"></a>
+        <a href="https://scikit-learn.org" ><img src="img/2843c79491bf3698ce81a688c001a2c1.png" height="54px" width="100px" alt="Scikit-Learn"></a>
+        <a href="https://flask.palletsprojects.com" ><img src="img/icons8-flask-64.png" alt="Flask"></a>
+    </div>
+    <div class="project-footer">
+        <a href="https://github.com/yourusername/project5"  class="btn">View Code ↗</a>
+        <a href="https://yourliveproject5.netlify.app"  class="btn">Live Demo ↗</a>
+        <a href="https://yourliveproject5.netlify.app"  class="btn">Jan 2024– May 2024</a>
+    </div>
+</div>
+</div>
+
+</section>
+  
+<section id="education">
+  <div class="edu-header" ><h2  data-text="SKILLS">EDUCATION </h2></div>
+    <div class="edu-container">
+      <!-- <h2 class="edu-header">Education Journey</h2> -->
+      
+      
+  
+      <!-- Timeline Items -->
+      <div class="timeline">
+        <div class="timeline-item left active">
+          <div class="timeline-content1">
+            <a href="https://missamari.kvs.ac.in/en/" class="img-link">
+             <img src="img/kvnm.png" alt="Transparent Image" class="transparent-img">
+            </a>
+            <h3>10th Grade - K V New Missamari, Assam</h3>
+            <p>CBSE | 10 CGPA | Science | 2016-17</p>
+          </div>
+        </div>
+  
+        <div class="timeline-item right active">
+          <div class="timeline-content2">
+            <a href="https://oldcanttald.kvs.ac.in/en/"  class="img-link">
+             <img src="img/kvoc.png" alt="Transparent Image" class="transparent-img">
+             </a>
+            <h3>12th Grade - K V Old Cantt Allahabad,Prayagraj</h3>
+            <p>CBSE | 77.2% | PCM Stream | 2018-19</p>
+          </div>
+        </div>
+  
+        <div class="timeline-item left active">
+          <div class="timeline-content3">
+            <a href="https://www.rmlau.ac.in/new/index.aspx"  class="img-link">
+             <img src="img/drrmalu.png" alt="Transparent Image" class="transparent-img">
+             </a>
+            <h3>B.Tech - Dr Rammanohar Lohia Awadh University, Faizabad</h3>
+            <p>IT | 8.68 CGPA | 2019-2023</p>
+          </div>
+        </div>
+  
+        <div class="timeline-item right active">
+          <div class="timeline-content4">
+            <a href="https://www.igdtuw.ac.in/"  class="img-link">
+              <img src="img/igdtuw.png" alt="Transparent Image" class="transparent-img">
+            </a>
+            <h3>M.Tech - Indira Gandhi Delhi Technical University For Women,Delhi</h3>
+            <p>CSE (AI) | 8.2 CGPA | 2023-2025</p>
+          </div>
+        </div>
+  
+        <div class="edu-end-message">And the journey continues...</div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section id="publication" class="section">
+    <div class="publication-header">
+        <h2>Publications</h2>
+    </div>
+    <div class="papers-container">
+        <!-- Paper 1 -->
+        <div class="paper-card">
+          <h3>Intelligent Systems in Bio. Med. Management: Digital Technologies as Catalysts for a Sustainable Future</h3>
+          <p><strong>Conference:</strong> International Conference on Environmental Science and Technology</p>
+          <p><strong>Indexed:</strong> Scopus</p>
+          <a href="https://github.com/yourusername/project5"  class="btnpub">View Certificate ↗</a>
+        </div>
+      
+        <!-- Paper 2 -->
+        <div class="paper-card">
+          <h3>A Data Driven Longitudinal Analysis and Forecasting of Biomedical Waste Generation</h3>
+          
+          <p><strong>Conference:</strong> International Conference on NextGen Technology and AI For the Sustainable Development</p>
+          <p><strong>Indexed:</strong> Scopus, Taylor and Francis Group</p>
+          <a href="https://github.com/yourusername/project5"  class="btnpub2">View Certificate ↗</a>
+        </div>
+    </div>
+      
+  </section>
+ <section id="miscellaneous" class="section">
+  <div class="miscellaneous-header">
+    <h2>MISCELLANEOUS</h2>
+  </div>
+
+  <div class="m-container">
+    
+    <!-- Certifications -->
+    <div class="hex-wrapper">
+      <div class="m-card1">
+        <h3>Certifications</h3>
+        <!-- <img src="img/awards school certificate MUN delegate.jpeg" alt="Certificate Icon" class="certification-icon"> -->
+        <ul id="certifications-list1">
+          <li><strong>NPTEL-Elite:</strong> Certified in Database Management Systems — covered ER modeling, normalization, indexing, and SQL optimization.</li>
+          <li><strong>Internshala Web Development:</strong> Practical exposure to full-stack development including HTML, CSS, JavaScript, and deployment tools.</li>
+          <li><strong>Udemy:</strong> Completed project-based training in HTML and CSS, gaining strong frontend design fundamentals.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Volunteer Experience -->
+    <div class="hex-wrapper">
+      <div class="m-card2">
+        <h3>Volunteer Experience</h3>
+        <!-- <img src="img/Volunteer - Back on My Feet.jpeg" alt="Volunteer Icon" class="volunteer-icon"> -->
+        <ul id="certifications-list2">
+          <li><strong>Deepotsav – Dr. RML Avadh University (2020, 2021):</strong> Assisted in logistics and digital coordination, strengthening leadership and data documentation skills.</li>
+          <li><strong>Technical Volunteer – College Fest (2022):</strong> Supported tech setup and participant guidance during live events and workshops.</li>
+          <li><strong>Swachh Bharat Abhiyan (2021):</strong> Promoted hygiene and cleanliness awareness through posters and field engagement.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Other Achievements -->
+    <div class="hex-wrapper">
+      <div class="m-card3">
+        <h3>Other Achievements</h3>
+        <!-- <img src="img/download (63).jpeg" alt="Achievement Icon" class="achievement-icon"> -->
+        <ul id="certifications-list3">
+          <li><strong>3rd Place – E-Poster Competition, University of Lucknow:</strong> Created data-driven visuals to explain scientific concepts on International Light Day.</li>
+          <li><strong>Certified Workshop – Natyavyom Films Acting Academy:</strong> Completed 20+ hour workshop on communication, presentation, and storytelling.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="contact" class="section">
+    
+  <div class="shape shape1"></div>
+  <div class="shape shape2"></div>
+  <div class="shape shape3"></div>
+
+  <div class="contact-container"> 
+    <h2>CONTACT US</h2>
+    <form class="contact-form" action="https://formspree.io/f/mwpolezr" method="POST" >
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+  <footer class="footer">
+  <p>© 2025 Jyoti | Data Scientist & Analyst </p>
+  <div class="social-icons">
+    <a href="mailto:7990jyoti.k@gmail.com" target="_blank" class="social-icon"><i class="fab fa-google"></i></a>
+    <a href="https://github.com/Heyy-Jyoti" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/jyoti-tech/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
