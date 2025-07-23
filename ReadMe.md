@@ -1,11 +1,15 @@
-<h1 align="center">🌟 Jyoti — Aspiring Data Scientist & Analyst 🌟</h1>
+<h1 align="center">🌟 Jyoti — Aspiring Data Scientist / Data Analyst 🌟</h1>
+<p align="center">
+  <i>Turning complex data into clear decisions, one insight after another.</i><br>
+  <b>🚀 Portfolio | 🧠 ML Enthusiast | 📊 Data Storyteller | 💡 Problem Solver</b>
+</p>
 
 <p align="center">
-  <em>Turning complex data into clear decisions,<br>one insight after another.</em><br><br>
-  <a href="https://your-cv-link.com"><img src="https://img.shields.io/badge/Download-CV-blue?style=flat-square&logo=read-the-docs" alt="Download CV"></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-Me-red?style=flat-square&logo=gmail" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
-  <a href="https://jyoti.github.io/portfolio"><img src="https://img.shields.io/badge/Visit-Portfolio-brightgreen?style=flat-square&logo=githubpages" alt="Portfolio"></a>
+  <a href="https://your-portfolio-link.com">🌐 Portfolio</a> •
+  <a href="https://github.com/your-username">💻 GitHub</a> •
+  <a href="mailto:your.email@example.com">✉️ Email</a> •
+  <a href="https://linkedin.com/in/your-linkedin">🔗 LinkedIn</a> •
+  <a href="https://your-cv-link.com">📄 Download CV</a>
 </p>
 
 ---
@@ -42,22 +46,28 @@ Hi, I’m **Jyoti**, an enthusiastic and self-motivated aspiring **Data Scientis
 
 ## 🎓 Education
 
-- 📘 **M.Tech (CSE-AI)** — Ongoing  
-- 📘 **B.Tech (CSE)**  
-- 📘 **12th Grade**  
+- 🏫 **M.Tech** — CSE (AI)
+- 🎓 **B.Tech**
+- 📘 **12th Grade**
 - 📘 **10th Grade**
+
+📈 *Learning is a lifelong journey – and mine is just getting started.*
+
 
 ---
 
-## 📚 Publications
+### 📚 Publications
 
-1. **Intelligent Systems in Biomedical Waste Management**  
-   *Conference:* International Conference on Environmental Science and Technology (Scopus Indexed)  
-   [📄 View Certificate](#)
+### 1. **A Data Driven Longitudinal Analysis and Forecasting of Biomedical Waste Generation**
+- Conference: *NextGen Technology and AI for Sustainable Development*
+- Indexed: Scopus, Taylor & Francis  
+  [📜 View Certificate](#)
 
-2. **Data-Driven Forecasting of Biomedical Waste**  
-   *Conference:* ICNGTAI — Taylor & Francis Group (Scopus Indexed)  
-   [📄 View Certificate](#)
+### 2. **Intelligent Systems in Biomedical Management**
+- Conference: *International Conference on Environmental Science and Technology*
+- Indexed: Scopus  
+  [📜 View Certificate](#)
+
 
 ---
 
