@@ -197,5 +197,4 @@ If you find this portfolio inspiring or useful, give it a ⭐ and feel free to f
 
 <p align="center">© 2025 Jyoti | Data Scientist & Analyst</p>
 
-# Final Merged Version
-This is the final version you want to keep.
+
